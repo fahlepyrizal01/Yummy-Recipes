@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".activity.RecipeDetailsActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collapsingToolbarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true"
+            app:contentScrim="@android:color/white"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
+            app:titleEnabled="false">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageViewPosterDetails"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimens_200dp"
+                    android:scaleType="centerCrop"
+                    android:layout_marginTop="?attr/actionBarSize"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="ContentDescription"
+                    tools:src="@drawable/cauli_shepherds_pie" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardViewDetails"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dimens_5dp"
+                    app:cardCornerRadius="@dimen/dimens_5dp"
+                    app:cardElevation="3dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageViewPosterDetails"
+                    app:layout_constraintBottom_toBottomOf="parent">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/dimens_10dp">
+
+                        <TextView
+                            android:id="@+id/textViewNameDetails"
+                            android:layout_width="@dimen/dimens_0dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textSize="@dimen/dimens_20sp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:text="Cauli Shepherd's Pie" />
+
+                        <View
+                            android:id="@+id/view"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/dimens_1dp"
+                            android:layout_marginTop="@dimen/dimens_3dp"
+                            android:background="@color/colorAccent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textViewNameDetails" />
+
+                        <androidx.constraintlayout.widget.Guideline
+                            android:id="@+id/guideline"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            app:layout_constraintGuide_percent="0.3" />
+
+                        <TextView
+                            android:id="@+id/textViewDateDetails"
+                            android:layout_width="@dimen/dimens_0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dimens_3dp"
+                            android:text="@string/text_date"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toStartOf="@+id/textViewDoubleDots1"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/view" />
+
+                        <TextView
+                            android:id="@+id/textViewDoubleDots1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/text_double_dot"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toStartOf="@+id/guideline"
+                            app:layout_constraintTop_toTopOf="@+id/textViewDateDetails" />
+
+                        <TextView
+                            android:id="@+id/textViewDateDetailsValue"
+                            android:layout_width="@dimen/dimens_0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/dimens_5dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/textViewDoubleDots1"
+                            app:layout_constraintTop_toTopOf="@+id/textViewDateDetails"
+                            tools:text="Jan 15, 2020" />
+
+                        <TextView
+                            android:id="@+id/textViewYieldsDetails"
+                            android:layout_width="@dimen/dimens_0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dimens_5dp"
+                            android:text="@string/text_yields"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toStartOf="@+id/textViewDoubleDots2"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textViewDateDetailsValue" />
+
+                        <TextView
+                            android:id="@+id/textViewDoubleDots2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/text_double_dot"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toStartOf="@+id/guideline"
+                            app:layout_constraintTop_toTopOf="@+id/textViewYieldsDetails" />
+
+                        <TextView
+                            android:id="@+id/textViewYieldsDetailsValue"
+                            android:layout_width="@dimen/dimens_0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/dimens_5dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/textViewDoubleDots2"
+                            app:layout_constraintTop_toTopOf="@+id/textViewYieldsDetails"
+                            tools:text="6 - 8 servings" />
+
+                        <TextView
+                            android:id="@+id/textViewPrepTimeDetails"
+                            android:layout_width="@dimen/dimens_0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dimens_5dp"
+                            android:text="@string/text_prep_time"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toStartOf="@+id/textViewDoubleDots3"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textViewYieldsDetailsValue" />
+
+                        <TextView
+                            android:id="@+id/textViewDoubleDots3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/text_double_dot"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toStartOf="@+id/guideline"
+                            app:layout_constraintTop_toTopOf="@+id/textViewPrepTimeDetails" />
+
+                        <TextView
+                            android:id="@+id/textViewPrepTimeDetailsValue"
+                            android:layout_width="@dimen/dimens_0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/dimens_5dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/textViewDoubleDots3"
+                            app:layout_constraintTop_toTopOf="@+id/textViewPrepTimeDetails"
+                            tools:text="0 hours 15 mins" />
+
+                        <TextView
+                            android:id="@+id/textViewTotalTimeDetails"
+                            android:layout_width="@dimen/dimens_0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dimens_5dp"
+                            android:text="@string/text_total_time"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toStartOf="@+id/textViewDoubleDots4"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textViewPrepTimeDetailsValue" />
+
+                        <TextView
+                            android:id="@+id/textViewDoubleDots4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/text_double_dot"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toStartOf="@+id/guideline"
+                            app:layout_constraintTop_toTopOf="@+id/textViewTotalTimeDetails" />
+
+                        <TextView
+                            android:id="@+id/textViewTotalTimeDetailsValue"
+                            android:layout_width="@dimen/dimens_0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/dimens_5dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/textViewDoubleDots4"
+                            app:layout_constraintTop_toTopOf="@+id/textViewTotalTimeDetails"
+                            tools:text="1 hour 15 mins" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbarDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/colorPrimary"
+                android:minHeight="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:theme="@style/ThemeOverlay.AppCompat.Dark" />
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tabLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

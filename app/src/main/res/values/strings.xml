@@ -1,0 +1,287 @@
+<resources>
+    <string name="app_name">Yummy Recipes</string>
+    <string name="text_name">Rizal Fahlepi</string>
+    <string name="text_email">fahlepyrizal@gmail.com</string>
+    <string name="text_about">About</string>
+    <string name="text_person">Person</string>
+    <string name="text_ingredients">Ingredients</string>
+    <string name="text_directions">Directions</string>
+    <string name="text_details">Details</string>
+    <string name="text_double_dot">:</string>
+    <string name="text_total_time">Total Time</string>
+    <string name="text_prep_time">Prep Time</string>
+    <string name="text_yields">Yields</string>
+    <string name="text_date">Date</string>
+
+
+    <array name="data_poster">
+        <item>@drawable/pink_senoritas</item>
+        <item>@drawable/antipasto_stuffed_chicken</item>
+        <item>@drawable/meat_egg_and_cheese_rollups</item>
+        <item>@drawable/avocado_egg_boats</item>
+        <item>@drawable/fluffy_vegan_pancakes</item>
+        <item>@drawable/smashed_brussels_sprouts</item>
+        <item>@drawable/red_wine_milkshakes</item>
+        <item>@drawable/french_onion_chicken_zoodle_bake</item>
+        <item>@drawable/deep_blue_vodka_punch</item>
+        <item>@drawable/cauli_shepherds_pie</item>
+    </array>
+
+    <array name="data_name">
+        <item>Pink Senoritas</item>
+        <item>Antipasto Stuffed Chicken</item>
+        <item>Meat Egg and Cheese Roll-Ups</item>
+        <item>Avocado Egg Boats</item>
+        <item>Fluffy Vegan Pancakes</item>
+        <item>Smashed Brussels Sprouts</item>
+        <item>Red Wine Milkshakes</item>
+        <item>French Onion Chicken Zoodle Bake</item>
+        <item>Deep Blue Vodka Punch</item>
+        <item>Cauli Shepherd\'s Pie</item>
+    </array>
+
+    <array name="data_date">
+        <item>Jan 16, 2020</item>
+        <item>Jan 14, 2020</item>
+        <item>Jan 14, 2020</item>
+        <item>Jan 14, 2020</item>
+        <item>Jan 15, 2020</item>
+        <item>Jan 15, 2020</item>
+        <item>Jan 16, 2020</item>
+        <item>Jan 16, 2020</item>
+        <item>Jan 16, 2020</item>
+        <item>Jan 15, 2020</item>
+    </array>
+
+    <array name="data_yields">
+        <item>4 servings</item>
+        <item>4 servings</item>
+        <item>10 servings</item>
+        <item>4 servings</item>
+        <item>2 - 4 servings</item>
+        <item>6 - 8 servings</item>
+        <item>3 servings</item>
+        <item>6 servings</item>
+        <item>12 servings</item>
+        <item>6 - 8 servings</item>
+    </array>
+
+    <array name="data_prep_time">
+        <item>0 hours 10 mins</item>
+        <item>0 hours 10 mins</item>
+        <item>0 hours 15 mins</item>
+        <item>0 hours 10 mins</item>
+        <item>0 hours 5 mins</item>
+        <item>0 hours 10 mins</item>
+        <item>0 hours 5 mins</item>
+        <item>0 hours 15 mins</item>
+        <item>0 hours 15 mins</item>
+        <item>0 hours 15 mins</item>
+    </array>
+
+    <array name="data_total_time">
+        <item>0 hours 15 mins</item>
+        <item>0 hours 55 mins</item>
+        <item>0 hours 35 mins</item>
+        <item>0 hours 30 mins</item>
+        <item>0 hours 20 mins</item>
+        <item>0 hours 55 mins</item>
+        <item>0 hours 5 mins</item>
+        <item>1 hour 15 mins</item>
+        <item>3 hours 30 mins</item>
+        <item>1 hour 15 mins</item>
+    </array>
+
+    <array name="data_ingredients_pink_senoritas">
+        <item>Lemon wedge, for rimming glasses.</item>
+        <item>Coarse salt, for rimming glasses.</item>
+        <item>2 c. ice.</item>
+        <item>2 1/4 c. Pink lemonade.</item>
+        <item>1/4 c. fresh lemon juice.</item>
+        <item>1/2 c. triple sec.</item>
+        <item>1 c. tequila.</item>
+        <item>4 Lemon Slices, for garnish.</item>
+    </array>
+
+    <array name="data_directions_pink_senoritas">
+        <item>Rub a lemon wedge around the rim of four glasses, then dip rims into salt.</item>
+        <item>To each glass, add ice, pink lemonade, lemon juice, triple sec, and tequila. Stir to combine. (if you prefer a lot of ice, stir together mixture first, then pour over ice.)</item>
+        <item>Garnish each glass with a lemon slice.</item>
+    </array>
+
+    <array name="data_ingredients_antipasto_stuffed_chicken">
+        <item>4 boneless skinless chicken breasts.</item>
+        <item>2 tbsp. extra-virgin olive oil.</item>
+        <item>1 tsp. dried oregano.</item>
+        <item>1/2 tsp. garlic powder.</item>
+        <item>Kosher salt.</item>
+        <item>Freshly ground black pepper.</item>
+        <item>1/4 lb. deli meat.</item>
+        <item>1/4 lb. salami.</item>
+        <item>1 c. drained and sliced pepperoncini.</item>
+        <item>1/3 c. chopped assorted olives.</item>
+        <item>1/4 c. freshly grated Parmesan.</item>
+        <item>Freshly chopped parsley, for garnish.</item>
+    </array>
+
+    <array name="data_directions_antipasto_stuffed_chicken">
+        <item>Preheat oven to 400°. Place chicken on a cutting board and make 5 slits in each breast, being careful not to cut through completely. Transfer to a baking sheet.</item>
+        <item>Drizzle olive oil over chicken and season with oregano, garlic powder, salt, and pepper.</item>
+        <item>Stuff each chicken breast with meat, pepperoni, provolone, and pepperoncini, then sprinkle with olives and Parmesan.</item>
+        <item>Bake until chicken is cooked through and no longer pink, about 25 minutes.</item>
+        <item>Garnish with parsley before serving.</item>
+    </array>
+
+    <array name="data_ingredients_meat_egg_and_cheese_rollups">
+        <item>10 large eggs.</item>
+        <item>2 tsp. garlic powder.</item>
+        <item>Kosher salt.</item>
+        <item>Freshly ground black pepper.</item>
+        <item>2 tbsp. butter.</item>
+        <item>1 1/2 c. shredded cheddar.</item>
+        <item>1 c. baby spinach.</item>
+        <item>1 c. chopped tomatoes.</item>
+        <item>20 slices meat.</item>
+    </array>
+
+    <array name="data_directions_meat_egg_and_cheese_rollups">
+        <item>Heat broiler. In a large bowl, crack eggs. Whisk together with garlic powder and season with salt and pepper.</item>
+        <item>In a large nonstick skillet over medium heat, melt butter. Add eggs and scramble, stirring occasionally, 3 minutes. Stir in cheddar until melted, then stir in baby spinach and tomatoes until combined.</item>
+        <item>On a cutting board, place two slices of meat. Top with a big spoonful of scrambled eggs and roll up. Repeat with remaining meat and scrambled eggs.</item>
+        <item>Place roll-ups in a shallow baking dish and broil until meat is crispy, 5 minutes.</item>
+    </array>
+
+    <array name="data_ingredients_avocado_egg_boats">
+        <item>2 ripe avocados, halved and pitted.</item>
+        <item>4 large eggs.</item>
+        <item>Kosher salt.</item>
+        <item>Freshly ground black pepper.</item>
+        <item>3 slices bacon.</item>
+        <item>Freshly chopped chives, for garnish.</item>
+    </array>
+
+    <array name="data_directions_avocado_egg_boats">
+        <item>Preheat oven to 350°. Scoop about 1 tablespoon worth of avocado out of each half; discard or reserve for another use.</item>
+        <item>Place hollowed avocados in a baking dish, then crack eggs into a bowl, one at a time. Using a spoon, transfer one yolk to each avocado half, then spoon in as much egg white as you can fit without spilling over.</item>
+        <item>Season with salt and pepper and bake until whites are set and yolks are no longer runny, 20 to 25 minutes. (Cover with foil if avocados are beginning to brown.)</item>
+        <item>Meanwhile, in a large skillet over medium heat, cook bacon until crisp, 8 minutes, then transfer to a paper towel-lined plate and chop.</item>
+        <item>Top avocados with bacon and chives before serving.</item>
+    </array>
+
+    <array name="data_ingredients_fluffy_vegan_pancakes">
+        <item>1 c. all-purpose flour.</item>
+        <item>1 tbsp. granulated sugar.</item>
+        <item>1 tbsp. baking powder.</item>
+        <item>1/4 tsp. salt.</item>
+        <item>1 c. almond milk (or any other non-dairy milk).</item>
+        <item>2 tbsp. coconut oil.</item>
+        <item>Vegetable or coconut oil, for frying.</item>
+        <item>Maple syrup, for serving.</item>
+        <item>Fresh fruit, for serving (optional).</item>
+    </array>
+
+    <array name="data_directions_fluffy_vegan_pancakes">
+        <item>In a large bowl, whisk together flour, sugar, baking powder, and salt. Add  almond milk and coconut oil and mix until smooth.</item>
+        <item>In a large skillet over medium low heat, heat oil. Using a 1/4 cup measure, pour batter into pan. Cook 2 to 3 minutes, and flip when you see bubbles forming around the edges of the pancakes. Cook 2 to 3 minutes more on the opposite side, until golden. (If making a large batch, preheat oven to 200° and place prepared pancakes on baking sheet in oven.)</item>
+        <item>When all batter has been used, serve with maple syrup and toppings of your choice.</item>
+    </array>
+
+    <array name="data_ingredients_smashed_brussels_sprouts">
+        <item>2 lb. Brussels sprouts.</item>
+        <item>2 tbsp. extra-virgin olive oil.</item>
+        <item>2 cloves garlic, minced.</item>
+        <item>1 tsp. freshly chopped thyme.</item>
+        <item>Kosher salt.</item>
+        <item>Freshly ground black pepper.</item>
+        <item>1 c. shredded mozzarella.</item>
+        <item>1/4 c. freshly grated Parmesan.</item>
+        <item>Freshly chopped parsley, for garnish.</item>
+    </array>
+
+    <array name="data_directions_smashed_brussels_sprouts">
+        <item>Preheat oven to 425° and line a large baking sheet with parchment paper. Prepare an ice bath in a large bowl.</item>
+        <item>Blanch Brussels sprouts: Bring a large pot of salted water to a boil. Add Brussels sprouts and cook until bright green and very tender, 8 to 10 minutes. Add Brussels sprouts to ice bath to cool then drain.</item>
+        <item>On a large baking sheet, toss blanched Brussels sprouts with oil, garlic, and thyme. Using the end of a small glass or mason jar, press down on Brussels sprouts to smash them into a flat patty. Season each smashed Brussels sprout with salt and pepper, then sprinkle mozzarella and Parmesan on top.</item>
+        <item>Bake until bottoms of sprouts are crispy and cheese is melty and golden, 20 to 25 minutes.</item>
+        <item>Garnish with parsley and serve warm.</item>
+    </array>
+
+    <array name="data_ingredients_red_wine_milkshakes">
+        <item>1 (1.5 quart) Breyer\'s Natural Vanilla Ice Cream.</item>
+        <item>1 c. red wine.</item>
+        <item>4 oz. vodka.</item>
+        <item>Whipped cream, for serving.</item>
+        <item>Maraschino cherries, for serving.</item>
+    </array>
+
+    <array name="data_directions_red_wine_milkshakes">
+        <item>In a blender, blend ice cream, red wine, and vodka until smooth.</item>
+        <item>Divide between glasses and garnish with whipped cream and cherries.</item>
+    </array>
+
+    <array name="data_ingredients_french_onion_chicken_zoodle_bake">
+        <item>3 lb. zucchini, spiralized.</item>
+        <item>Kosher salt.</item>
+        <item>2 tbsp. extra virgin olive oil.</item>
+        <item>1 1/4 lb. thin chicken cutlets.</item>
+        <item>Freshly ground black pepper.</item>
+        <item>2 tbsp. butter.</item>
+        <item>2 large yellow onions, thinly sliced.</item>
+        <item>1/4 c. dry sherry.</item>
+        <item>2 tsp. fresh thyme leaves, roughly chopped, plus more for garnish.</item>
+        <item>4 oz. cream cheese .</item>
+        <item>1 1/2 c. shredded fontina.</item>
+    </array>
+
+    <array name="data_directions_french_onion_chicken_zoodle_bake">
+        <item>In a colander set over a bowl, toss zoodles with 1 tablespoon of kosher salt. Let zoodles drain of excess moisture while you cook the chicken and onions.</item>
+        <item>Preheat oven to 400°. In a large skillet over medium-high heat, heat oil. Season chicken with salt and pepper and add to skillet, working in batches. Cook until golden, about 1 to 2 minutes per side. Remove chicken to a work surface.</item>
+        <item>Return skillet to medium heat and melt butter. Add onion and season with salt and pepper. Cook, stirring occasionally, until caramelized and jammy, about 20 minutes. Increase heat to medium-high, stir in sherry and thyme and simmer until almost completely reduced, about 2 minutes. Melt cream cheese into onion mixture and remove skillet from heat.</item>
+        <item>Use a clean dish towel (or several paper towels) to squeeze as much moisture as possible out of the zucchini noodles. Thinly slice chicken. In a large bowl, stir drained zucchini noodles and sliced chicken into onion mixture. Transfer to a baking dish. Top with cheese.</item>
+        <item>Bake until bubbly and slightly golden, about 20 minutes. If you’d like to develop a more golden top, broil on high for 2 minutes.</item>
+    </array>
+
+    <array name="data_ingredients_deep_blue_vodka_punch">
+        <item>2 strawberry fruit roll-ups.</item>
+        <item>4 c. vanilla ice cream.</item>
+        <item>4 c. Blue Hawaiian Punch .</item>
+        <item>4 c. sprite.</item>
+        <item>3 c. Vanilla Vodka.</item>
+        <item>1 gummy shark, if desired.</item>
+    </array>
+
+    <array name="data_directions_deep_blue_vodka_punch">
+        <item>Line a Bundt pan with plastic wrap and spray with nonstick cooking spray. Lay the fruit roll-ups perpendicular to each other in the pan to create an “X”.</item>
+        <item>Fill Bundt pan about halfway with ice cream. Cut the fruit roll-ups and tuck them over the ice cream to create a full stripe. Place in the freezer to harden, at least 3 hours and up to overnight.</item>
+        <item>In a punch bowl, combine Hawaiian Punch, Sprite and vodka. Add gummy shark if using and stir to combine. Unmold life preserver and add it to punch just before serving.</item>
+    </array>
+
+    <array name="data_ingredients_cauli_shepherds_pie">
+        <item>1 medium head cauliflower, cut into florets.</item>
+        <item>3 oz. cream cheese, softened.</item>
+        <item>1/4 c. whole milk.</item>
+        <item>Kosher salt.</item>
+        <item>Freshly ground black pepper.</item>
+        <item>1 tbsp. extra-virgin olive oil.</item>
+        <item>1 large onion, chopped.</item>
+        <item>2 carrots, peeled and chopped.</item>
+        <item>2 cloves garlic, minced.</item>
+        <item>1 lb. ground beef.</item>
+        <item>1 c. frozen peas.</item>
+        <item>1 c. frozen corn.</item>
+        <item>2 tbsp. all-purpose flour.</item>
+        <item>2/3 c. low-sodium chicken broth.</item>
+        <item>1 tbsp. freshly chopped parsley, for garnish.</item>
+    </array>
+
+    <array name="data_directions_cauli_shepherds_pie">
+        <item>Preheat oven to 400°. Make mashed cauliflower: Bring a large pot of water to a boil. Add cauliflower florets and cook until tender, 10 minutes. Drain well, pressing with paper towels or a clean dish towel to remove as much excess water as possible.</item>
+        <item>Return to pot and mash cauliflower with a potato masher until smooth and no large chunks remain.</item>
+        <item>Stir in cream cheese and milk and season with salt and pepper and mash until completely combined and creamy. Set aside.</item>
+        <item>Make beef mixture: In a large skillet over medium heat, heat oil. Add onion, carrots, and garlic and cook until softened, 5 minutes. Add ground beef and cook until no longer pink, 5 minutes more. Drain fat.</item>
+        <item>Stir in frozen peas and corn and cook until warmed through, 3 minutes more. Season with salt and pepper.</item>
+        <item>Sprinkle meat with flour and stir to evenly distribute. Cook one minute more, add broth, and stir mixture until slightly thickened, 5 minutes.</item>
+        <item>Top beef mixture with an even layer of mashed cauliflower and bake 20 minutes or until there is very little liquid visible and the cauliflower is golden. Broil if desired.</item>
+        <item>Garnish with parsley before serving.</item>
+    </array>
+</resources>
